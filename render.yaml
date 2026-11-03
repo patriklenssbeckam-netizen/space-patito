@@ -1,8 +1,7 @@
 services:
-  - type: web
+  - type: static_site
     name: space-patito
     env: static
     buildCommand: ""
-    startCommand: ""
-    staticPublishPath: .
+    staticPublishPath: public
     plan: free
