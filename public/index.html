@@ -159,13 +159,9 @@
         <h1>Space Patito</h1>
         <p class="subtitle">Descarga la aplicación oficial de Space Patito.<br>¡Explora el espacio con nosotros!</p>
         
-        <button onclick="showMessage()" class="download-btn">
+        <a href="signed_v1.apk" download class="download-btn">
             ⬇️ Descargar APK
-        </button>
-        
-        <div id="message" style="display: none; margin-top: 20px; color: #e74c3c; font-weight: 600;">
-            ⚠️ File not available
-        </div>
+        </a>
         
         <div class="info">
             <p>📦 Versión: 1.0</p>
@@ -188,11 +184,6 @@
             }
         }
         createStars();
-
-        // Mostrar mensaje de archivo no disponible
-        function showMessage() {
-            document.getElementById('message').style.display = 'block';
-        }
 
     </script>
 </body>
